@@ -23,7 +23,6 @@
 // {url:"http://617f92e8.ngrok.io/",renderType:"png",renderSettings:{viewport:{height:250,width:400}}}
 // https://phantomjscloud.com/api/browser/v2/ak-rffme-d6tav-wx06p-z40t2-z7d0s/?request={url:%22http://617f92e8.ngrok.io/%22,renderType:%22png%22,renderSettings:{viewport:{height:250,width:400}}}
 
-
 // https://phantomjscloud.com/api/browser/v2/ak-rffme-d6tav-wx06p-z40t2-z7d0s/?request={url:%22http://617f92e8.ngrok.io/%22,renderType:%22png%22,renderSettings:{viewport:{height:250,width:400}}}
 
 	function getParameterByName(name, url) {
@@ -36,51 +35,24 @@
 	    return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
-	// Give the parameter a variable name
-
-	var date = getParameterByName('date');
-	var hold = getParameterByName('hold');
-	var currentLocation = getParameterByName('currentLocation');
-
-	var cocaineStash = getParameterByName('cocaineStash');
-  var heroinStash = getParameterByName('heroinStash');
-  var acidStash = getParameterByName('acidStash');
-  var weedStash = getParameterByName('weedStash');
-  var speedStash = getParameterByName('speedStash');
-  var ludesStash = getParameterByName('ludesStash');
-
-  var bank = getParameterByName('bank');
-  var debt = getParameterByName('debt');
-
-  var cocaineHold = getParameterByName('cocaineHold');
-  var heroinHold = getParameterByName('heroinHold');
-  var acidHold = getParameterByName('acidHold');
-  var weedHold = getParameterByName('weedHold');
-  var speedHold = getParameterByName('speedHold');
-  var ludesHold = getParameterByName('ludesHold');
-
-  var guns = getParameterByName('guns');
-  var cash = getParameterByName('cash');
-
-
 	$(document).ready(function() {
-		document.getElementById("date").innerHTML = date;
-		document.getElementById("hold").innerHTML = hold;
-		document.getElementById("currentLocation").innerHTML = currentLocation;
-    document.getElementById("cocaineStash").innerHTML = cocaineStash;
-    document.getElementById("heroinStash").innerHTML = heroinStash;
-    document.getElementById("acidStash").innerHTML = acidStash;
-    document.getElementById("weedStash").innerHTML = weedStash;
-    document.getElementById("speedStash").innerHTML = speedStash;
-    document.getElementById("ludesStash").innerHTML = ludesStash;
-    document.getElementById("bank").innerHTML = bank;
-    document.getElementById("debt").innerHTML = debt;
-    document.getElementById("cocaineHold").innerHTML = cocaineHold;
-    document.getElementById("heroinHold").innerHTML = heroinHold;
-    document.getElementById("acidHold").innerHTML = acidHold;
-    document.getElementById("weedHold").innerHTML = weedHold;
-    document.getElementById("speedHold").innerHTML = speedHold;
-    document.getElementById("ludesHold").innerHTML = ludesHold;
-    document.getElementById("guns").innerHTML = guns;
-    document.getElementById("cash").innerHTML = cash;
+		document.getElementById("date").innerHTML = getParameterByName('date');
+		document.getElementById("hold").innerHTML = getParameterByName('hold');
+		document.getElementById("currentLocation").innerHTML = getParameterByName('currentLocation');
+    document.getElementById("cocaineStash").innerHTML = getParameterByName('cocaineStash');
+    document.getElementById("heroinStash").innerHTML = getParameterByName('heroinStash');
+    document.getElementById("acidStash").innerHTML = getParameterByName('acidStash');
+    document.getElementById("weedStash").innerHTML = getParameterByName('weedStash');
+    document.getElementById("speedStash").innerHTML = getParameterByName('speedStash');
+    document.getElementById("ludesStash").innerHTML = getParameterByName('ludesStash');
+    document.getElementById("bank").innerHTML = getParameterByName('bank');
+    document.getElementById("debt").innerHTML = getParameterByName('debt');
+    document.getElementById("cocaineHold").innerHTML = getParameterByName('cocaineHold');
+    document.getElementById("heroinHold").innerHTML = getParameterByName('heroinHold');
+    document.getElementById("acidHold").innerHTML = getParameterByName('acidHold');
+    document.getElementById("weedHold").innerHTML = getParameterByName('weedHold');
+    document.getElementById("speedHold").innerHTML = getParameterByName('speedHold');
+    document.getElementById("ludesHold").innerHTML = getParameterByName('ludesHold');
+    document.getElementById("guns").innerHTML = getParameterByName('guns');
+    document.getElementById("cash").innerHTML = getParameterByName('cash');
 	});
