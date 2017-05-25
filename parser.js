@@ -19,6 +19,9 @@
 // WORKING URL DECODED
 // http://617f92e8.ngrok.io/?cash=0&guns=0&ludesHold=0&speedHold=0&weedHold=0&acidHold=0&heroinHold=0&cocaineHold=0&debt=0&bank=0&ludesStash=0&speedStash=0&weedStash=0&acidStash=0&heroinStash=0&cocaineStash=0&currentLocation=Bronx&hold=100&date=12-1-83
 
+// WITH API, URL DECODED
+// http://617f92e8.ngrok.io/?cash=0&guns=0&ludesHold=0&speedHold=0&weedHold=0&acidHold=0&heroinHold=0&cocaineHold=0&debt=0&bank=0&ludesStash=0&speedStash=0&weedStash=0&acidStash=0&heroinStash=0&cocaineStash=0&currentLocation=Bronx&hold=100&date=12-1-83
+
 // WORKING WITHOUT PARAMETERS
 // {url:"http://617f92e8.ngrok.io/",renderType:"png",renderSettings:{viewport:{height:250,width:400}}}
 // https://phantomjscloud.com/api/browser/v2/ak-rffme-d6tav-wx06p-z40t2-z7d0s/?request={url:%22http://617f92e8.ngrok.io/%22,renderType:%22png%22,renderSettings:{viewport:{height:250,width:400}}}
