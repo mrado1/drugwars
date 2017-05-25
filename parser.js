@@ -41,7 +41,7 @@
 	$(document).ready(function() {
 		document.getElementById("date").innerHTML = getParameterByName('date');
 		document.getElementById("hold").innerHTML = getParameterByName('hold');
-		document.getElementById("location").innerHTML = getParameterByName('currentLocation');
+		document.getElementById("location").innerHTML = getParameterByName('location');
     document.getElementById("cocaineStash").innerHTML = getParameterByName('cocaineStash');
     document.getElementById("heroinStash").innerHTML = getParameterByName('heroinStash');
     document.getElementById("acidStash").innerHTML = getParameterByName('acidStash');
