@@ -56,6 +56,6 @@
     document.getElementById("weedHold").innerHTML = getParameterByName('weedHold');
     document.getElementById("speedHold").innerHTML = getParameterByName('speedHold');
     document.getElementById("ludesHold").innerHTML = getParameterByName('ludesHold');
-    document.getElementById("guns").innerHTML = getParameterByName('guns');
-    document.getElementById("cash").innerHTML = getParameterByName('cash');
+    document.getElementById("guns").innerHTML = "$" + getParameterByName('guns');
+    document.getElementById("cash").innerHTML = "$" + getParameterByName('cash');
 	});
