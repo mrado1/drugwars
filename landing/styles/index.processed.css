@@ -126,3 +126,57 @@ img {
   color: white !important;
   background-color: #0069cc;
 }
+
+.btn:focus {
+  border: none;
+  color: white !important;
+}
+
+.dexter-link {
+  float: left;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+}
+
+.dexter-link-container {
+  float: left;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  opacity: .5;
+  border-radius: 0 0 100px;
+  -webkit-transition: width .25s, height .25s, opacity .25s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width .25s, height .25s;
+  cursor: pointer;
+}
+
+.dexter-link-container svg {
+  width: 20px;
+  padding-bottom: 3px;
+  height: auto;
+  display: block;
+  margin: 10px;
+  -webkit-transition: width .25s, margin .25s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width .25s, margin .25s;
+}
+
+.dexter-link-container svg path {
+  fill: #2c383e;
+}
+
+.dexter-link-container:hover {
+  width: 60px;
+  height: 60px;
+  opacity: .75;
+}
+
+.dexter-link-container:hover svg {
+  width: 25px;
+  margin: 12px;
+  opacity: 1;
+}
