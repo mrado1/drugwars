@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    width: 780px;
-    height: 410px;
+    width: 800px;
+    height: 440px;
     background-image: url(images/leaderboard_bg.png);
 }
 
